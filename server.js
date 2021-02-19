@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.render("base", { title: "Login Systems" });
+  res.render("index", { title: "Login Systems" });
 });
 
 app.listen(port, () => {
