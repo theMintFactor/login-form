@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+body{
+    font-family: 'Akaya Kanadaka', cursive;
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+}
+.form-body{
+    background-color: rgba(250, 77, 8, 0.432);
+}
+
+
+.center-div{
+    padding-top: 10%;
+}
+.btn.btn-success {
+    padding:.4em 2em;
+}
+form{
+    padding: 0 3em;
+    
+}
+
+#login .title>span{
+    font-size: .8em;
+}
