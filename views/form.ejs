@@ -1,10 +1,15 @@
 <div class="text-center center-div" id="login">
   <div class="container w-25 border py-5 form-body">
     <div class="title pb-5">
+      <% if(locals.logout){%>
+      <div class="alert alert-success text-center">
+        <%-logout%>
+      </div>
+      <%}%>
       <h2 class="font-weight-bold">Login System</h2>
       <span>Log in for the existing user</span>
     </div>
-    <form action="/login" method="POST">
+    <form action="route/login" method="POST">
       <div class="form-group">
         <input
           type="email"
